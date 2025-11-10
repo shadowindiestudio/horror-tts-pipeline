@@ -1,37 +1,27 @@
-# Core TTS Engine
+# Core TTS & Audio Processing
 coqui-tts==0.27.2
+torch==2.5.1
+torchvision==0.20.1
+torchaudio==2.5.1
+transformers==4.33.3
 
-# PyTorch with CUDA 12.1 support (install separately with --index-url)
-# torch==2.5.1+cu121
-# torchvision==0.20.1+cu121
-# torchaudio==2.5.1+cu121
-
-# Transformers (compatible with coqui-tts 0.27.2)
-transformers==4.53.0
-
-# NumPy (1.x for compatibility with compiled modules)
-numpy==1.24.3
-
-# Audio Processing
-soundfile==0.12.1
-librosa==0.10.1
+# Audio & Signal Processing
 pydub==0.25.1
+soundfile==0.12.1
 scipy==1.11.4
+librosa==0.11.0
+numpy==1.24.3 
 
 # Document Processing
-python-docx==1.1.0
+python-docx==0.8.11
+
+# Deep Learning Dependencies
+einops==0.8.0
+coqpit==0.0.17
 
 # Utilities
+PyYAML==6.0.1
+matplotlib==3.8.2
 tqdm==4.67.1
-pyyaml==6.0.1
-requests==2.32.3
-
-# Deep Learning Support
-einops==0.7.0
-
-# Additional dependencies for coqui-tts
-coqpit==0.0.18
-inflect==7.0.0
-anyascii==0.3.2
-pysbd==0.3.4
-packaging==24.0
+requests==2.32.5
+anyascii==0.3.3

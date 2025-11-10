@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "device": "cuda",
+  "gpu_available": true,
+  "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "vram_gb": 8.0,
+  "cuda_version": "12.1",
+  "python_version": "3.11",
+  "xtts_model": "tts_models/multilingual/multi-dataset/xtts_v2",
+  "xtts_output_sr": 24000,
+  "target_sr": 48000,
+  "batch_size": 1,
+  "chunk_size_seconds": 3.0,
+  "default_language": "en",
+  "supported_languages": [
+    "en", "es", "fr", "de", "it", "pt", "pl", "tr", "ru",
+    "nl", "cs", "ar", "zh-cn", "ja", "hu", "ko", "hi"
+  ],
+  "project_root": "./",
+  "data_dir": "./data",
+  "output_dir": "./outputs",
+  "models_dir": "./models",
+  "voice_refs_dir": "./data/voice_refs",
+  "dialogues_dir": "./data/dialogues",
+  "insert_silence_ms": 400,
+  "bit_depth": 24,
+  "channels": 1
+}
